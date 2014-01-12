@@ -93,7 +93,7 @@ GPIO.setFunction(R2, GPIO.OUT)
 
 
 # Menempatkan web server pada port 8000, dan membuat ID dan password
-server = webiopi.Server(port=8000, login="surocam", password="cambot")
+server = webiopi.Server(port=8000, login="cambot", password="cambot")
 
 # Mendaftarkan Macro untuk dipanggil pada javascript di HTML
 
